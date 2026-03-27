@@ -1,0 +1,72 @@
+[
+    {
+        "city": "Mumbai",
+        "temperature_c": "35.99 C",
+        "humidity": 28,
+        "weather": "Smoke",
+        "time": "2026-03-27 05:54:23"
+    },
+    {
+        "city": "London",
+        "temperature_c": "6.97 C",
+        "humidity": 78,
+        "weather": "Clouds",
+        "time": "2026-03-27 05:51:26"
+    },
+    {
+        "city": "New York",
+        "temperature_c": "17.77 C",
+        "humidity": 79,
+        "weather": "Rain",
+        "time": "2026-03-27 05:57:07"
+    },
+    {
+        "city": "Tokyo",
+        "temperature_c": "17.18 C",
+        "humidity": 60,
+        "weather": "Clouds",
+        "time": "2026-03-27 05:55:10"
+    },
+    {
+        "city": "Delhi",
+        "temperature_c": "24.05 C",
+        "humidity": 60,
+        "weather": "Haze",
+        "time": "2026-03-27 05:58:18"
+    },
+    {
+        "city": "Sydney",
+        "temperature_c": "15.48 C",
+        "humidity": 73,
+        "weather": "Rain",
+        "time": "2026-03-27 05:51:36"
+    },
+    {
+        "city": "Paris",
+        "temperature_c": "2.08 C",
+        "humidity": 87,
+        "weather": "Clear",
+        "time": "2026-03-27 05:50:35"
+    },
+    {
+        "city": "Dubai",
+        "temperature_c": "25.07 C",
+        "humidity": 73,
+        "weather": "Rain",
+        "time": "2026-03-27 05:49:53"
+    },
+    {
+        "city": "Singapore",
+        "temperature_c": "32.08 C",
+        "humidity": 58,
+        "weather": "Clouds",
+        "time": "2026-03-27 05:53:16"
+    },
+    {
+        "city": "Berlin",
+        "temperature_c": "-1.18 C",
+        "humidity": 81,
+        "weather": "Clouds",
+        "time": "2026-03-27 05:54:38"
+    }
+]
