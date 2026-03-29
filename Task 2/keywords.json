@@ -1,0 +1,5 @@
+{
+  "FINANCE": ["stock", "market", "economy", "inflation"],
+  "TECH": ["ai", "software", "technology", "startup"],
+  "POLITICS": ["election", "government", "policy", "minister"]
+}

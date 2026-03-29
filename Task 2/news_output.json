@@ -1,0 +1,302 @@
+[
+    {
+        "title": "Global News Podcast",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "How a Music Streaming CEO Built an Open-Source Global Threat Map in His Spare Time",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "How BYD Got EV Chargers to Work Almost as Fast as Gas Pumps",
+        "category": "TECH",
+        "companies": [
+            "BYD"
+        ],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "What Happens if Iran Shuts Down the Strait of Hormuz?",
+        "category": "FINANCE",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "PS5 price hiked by \u00a390 due to global 'pressures'",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Higher Oil Prices From Trump\u2019s Iran War Risk Killing the AI Boom, WTO Says",
+        "category": "FINANCE",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "India's cheap weight-loss drugs could reshape global obesity fight",
+        "category": "FINANCE",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Global News Podcast: Trump warns of more US deaths in Iran war",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Trump takes another shot at dismantling state AI regulation",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "The world\u2019s biggest automaker has one of the dirtiest supply chains: report",
+        "category": "TECH",
+        "companies": [
+            "Tesla"
+        ],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "MWC 2026: all the phones, gadgets, and announcements from Barcelona",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Webtoon is adding AI localization tools to its comics platform",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Oppo\u2019s nearly creaseless foldable isn\u2019t launching in Europe after all",
+        "category": "GENERAL",
+        "companies": [
+            "Oppo"
+        ],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Watershed moment as Russia's sporting exile ends",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Global News Podcast: US Senate blocks bid to limit Trump's powers for Iran war",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Global News Podcast: US and Israel carry out joint attacks on Iran",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "TikTok's global marketing head is leaving",
+        "category": "FINANCE",
+        "companies": [
+            "TikTok"
+        ],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "The Future of Iran\u2019s Internet Is More Uncertain Than Ever",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Trump is dismantling democracy at 'unprecedented' speed, global report finds",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Wait, the Trump phone might actually exist",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "10 Rules for Navigating the Next Chapter of Global Tariffs",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Looking Back on Nike\u2019s Evolution from Startup to Global Enterprise",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "The US Has Already Caused $10 Trillion in Climate Damages\u2014and the Math Gets Worse",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [
+            "$10"
+        ],
+        "percentage": []
+    },
+    {
+        "title": "Apple Store Reflects RAM Shortage With External Storage Products Sold Out or Marked Up",
+        "category": "TECH",
+        "companies": [
+            "Apple"
+        ],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "OPPO puts the Find X9 Ultra and 'global' in the same sentence, teases April debut",
+        "category": "GENERAL",
+        "companies": [
+            "Oppo"
+        ],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Polymarket Bar Opens, Sucks",
+        "category": "FINANCE",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "3 digital nomads in Bali share the career journeys that led them to the tropical paradise",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Flight radar shows airspace empty over Iran after US, Israel strikes",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Timelapse shows change in the flow of ships in the Strait of Hormuz",
+        "category": "TECH",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Countries agree to historic release of stockpiled oil to ease the global shortage",
+        "category": "FINANCE",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "El Ni\u00f1o is set to take hold this summer, driving up global temperatures",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "U.S. investigates strike on Iranian school as the war sparks a global oil crisis",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "A Chinese Official's Use of ChatGPT Accidentally Revealed a Global Intimidation Operation",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Global airline stocks are plunging after Iran attacks triggered widespread travel chaos",
+        "category": "FINANCE",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "The Iran War shocked global markets. Macro and commodities traders paid the price.",
+        "category": "FINANCE",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "How a 162-year-old Turkish delight shop became a global dessert empire",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "TikTok's global consumer marketing head is out as part of a new round of job cuts",
+        "category": "FINANCE",
+        "companies": [
+            "TikTok"
+        ],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Inside the race to cut Russia off from the global internet",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "Mario Kart Tour Now Rated 18+ In Some Places As Regulators Crack Down On In-Game Gambling",
+        "category": "GENERAL",
+        "companies": [],
+        "currency": [],
+        "percentage": []
+    },
+    {
+        "title": "PS5 Now Starts At $600 As Sony Calls Major Price Hikes \u2018A Necessary Step\u2019",
+        "category": "GENERAL",
+        "companies": [
+            "Sony"
+        ],
+        "currency": [
+            "$600"
+        ],
+        "percentage": []
+    }
+]
