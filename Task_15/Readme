@@ -1,0 +1,139 @@
+# 🤖 Vision-Query Manager
+
+# 🤖 Vision-Query AI Agent
+
+📌 Overview  
+This project is an AI system that processes images and answers user questions intelligently.  
+It follows a complete pipeline:
+
+• Image → Validation → Blur Detection → Query Parsing → Safety Check → Gemini AI → Output  
+
+The system is designed as a **production-ready multimodal AI agent**.
+
+---
+
+
+---
+
+## 📁 Project Structure
+
+```
+capston_project/
+│
+|__backend
+       |__main.py                  # Agent entry point (full pipeline)
+├── .env                     # API key (NOT committed to git)
+├── images/                  # Folder containing input images (.jpg / .png)
+│   └── sample.jpg
+|__vision-query-ui
+       |__src
+          |__ App.jsx   # ui code 
+├── requirements.txt         # All dependencies
+├── README.md                # This file
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### Prerequisites
+
+- Python 3.10+
+- A valid [Google Gemini API Key](https://aistudio.google.com/app/apikey)
+
+### Step 1 — Created folder
+
+```bash
+mkdir capston_project
+```
+
+### Step 2 — Create a Virtual Environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Step 3 — Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4 — Set Up Your API Key
+
+Create a `.env` file in the root folder:
+
+```
+GEMINI_API_KEY=your_actual_key_here
+```
+
+### Step 5 — Add Your Images
+
+Place `.jpg`, `.jpeg`, or `.png` images in the `images/` folder.  
+Blurry images are automatically detected and skipped at startup.
+
+### Step 6 — Run the Agent
+
+```bash
+python main.py
+```
+
+---
+
+## 🏗️ Architecture Diagram
+```
+User Query
+   ↓
+Query Parser (VALID / NOISE / INVALID / NON_IMAGE)
+   ↓
+Safety Filter
+   ↓
+Image Loader (Multi-image support)
+   ↓
+Blur Detection (OpenCV)
+   ↓
+Valid Images
+   ↓
+Gemini Multimodal Model
+   ↓
+Answer Generation
+   ↓
+Logging + Performance Tracking
+```
+
+**Flow Summary:**
+
+1. User types a question → `QueryParser` classifies it (VALID / NOISE / INVALID / NON_IMAGE)
+2. Valid queries go through a **safety filter** (blocks person-identification)
+3. Images are loaded from `images/` folder; **blurry ones are skipped** via OpenCV
+4. Question + image bytes are sent to **Gemini Flash** with a grounding prompt
+5. Gemini returns an answer → displayed in terminal + logged to `ai_log.txt`
+
+---
+
+## 🔍 Key Architectural Decisions
+
+| Decision         | Choice                             | Reason                                               |
+| ---------------- | ---------------------------------- | ---------------------------------------------------- |
+| LLM              | Gemini Flash (latest)              | Natively multimodal; no separate vision model needed |
+| Blur Detection   | Laplacian variance (threshold=100) | Fast, CPU-only, no ML model required                 |
+| Input Validation | Rule-based keyword parser          | Lightweight; prevents unnecessary API calls          |
+| Prompt Guard     | Hard-coded instruction in prompt   | Grounds Gemini to images, reduces hallucination      |
+| Safety Layer     | Keyword blocklist                  | Fast filtering for PII/identity risks                |
+
+---
+
+## 🛡️ Limitations & Future Improvements
+
+- **Parser**: Keyword-based classification may miss edge cases; upgrade to intent classifier
+- **Safety**: Expand blocklist or use Gemini's built-in safety ratings
+- **Blur Threshold**: Make configurable via `.env` rather than hardcoded
+- **UI**: Wrap in a Gradio interface for drag-and-drop image uploads
+- **Multi-turn**: Add conversation history for follow-up questions
+
+---
+
+## 👤 Author
+
+\*\*Juien Mirza Mujawar
