@@ -1,0 +1,83 @@
+[
+  {
+    "timestamp": "2025-04-09T10:02:11.203",
+    "query": "What animal is in the picture?",
+    "parser_result": "VALID",
+    "safety_passed": true,
+    "answer": "The image shows a golden retriever dog sitting on a grassy field. It appears happy and its tongue is visible.",
+    "response_time_seconds": 2.63,
+    "images_used": 2,
+    "blurry_skipped": 0
+  },
+  {
+    "timestamp": "2025-04-09T10:04:32.881",
+    "query": "What color is the car?",
+    "parser_result": "VALID",
+    "safety_passed": true,
+    "answer": "The car in the image is red. It appears to be a sedan parked on the street.",
+    "response_time_seconds": 2.41,
+    "images_used": 2,
+    "blurry_skipped": 0
+  },
+  {
+    "timestamp": "2025-04-09T10:06:15.440",
+    "query": "What is happening in the photo?",
+    "parser_result": "VALID",
+    "safety_passed": true,
+    "answer": "The photo shows a group of people gathered around a table in what appears to be an outdoor café setting. Some are eating and others are talking.",
+    "response_time_seconds": 3.12,
+    "images_used": 2,
+    "blurry_skipped": 0
+  },
+  {
+    "timestamp": "2025-04-09T10:08:05.002",
+    "query": "12345",
+    "parser_result": "NOISE",
+    "safety_passed": null,
+    "answer": null,
+    "response_time_seconds": 0.001,
+    "images_used": 0,
+    "blurry_skipped": 0
+  },
+  {
+    "timestamp": "2025-04-09T10:09:22.770",
+    "query": "What is the capital of France?",
+    "parser_result": "NON_IMAGE",
+    "safety_passed": null,
+    "answer": null,
+    "response_time_seconds": 0.001,
+    "images_used": 0,
+    "blurry_skipped": 0
+  },
+  {
+    "timestamp": "2025-04-09T10:11:44.093",
+    "query": "Describe the object on the table",
+    "parser_result": "VALID",
+    "safety_passed": true,
+    "answer": "On the table there is a silver laptop, an open notebook, and a coffee mug. The setup appears to be a workspace.",
+    "response_time_seconds": 2.88,
+    "images_used": 2,
+    "blurry_skipped": 1
+  },
+  {
+    "timestamp": "2025-04-09T10:14:30.551",
+    "query": "Who is this person?",
+    "parser_result": "VALID",
+    "safety_passed": false,
+    "answer": null,
+    "response_time_seconds": 0.001,
+    "images_used": 0,
+    "blurry_skipped": 0,
+    "blocked_reason": "Safety filter: person identification blocked"
+  },
+  {
+    "timestamp": "2025-04-09T10:16:09.330",
+    "query": "What do you see in the image?",
+    "parser_result": "VALID",
+    "safety_passed": true,
+    "answer": "The image shows a mountain landscape at sunset with snow-capped peaks and an orange sky in the background.",
+    "response_time_seconds": 2.75,
+    "images_used": 2,
+    "blurry_skipped": 0
+  }
+]
